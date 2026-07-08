@@ -26,7 +26,7 @@ services:
   # 3. Node.js Express Gateway
   nodejs-service:
     build:
-      context: ./nodejs-service
+      context: ./nodejs-servics
       dockerfile: Dockerfile
     container_name: nodejs-app
     ports:
